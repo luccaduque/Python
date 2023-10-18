@@ -8,13 +8,13 @@ resp = ''
 
 resp = (input("\nVocê deseja iniciar o programa CALCULA MÉDIA? S para SIM  e n para NÃO ->  "))
 
-while (resp == 's'):
+while (resp == 's' or resp == 'S'):
     nome = input("\nInsira o nome do aluno ->  ")
     P1 = float (input("\nInsira a nota P1 ->  "))
     P2 = float (input("\nInsira a nota P2 ->  "))
     P3 = float (input("\nInsira a nota P3 ->  "))
 
-    m = float ((P1 + P2 + P3) / 3)
+    m = (P1 + P2 + P3) / 3
 
     if (m >= 6.0):
         print("\nO aluno", nome, "foi aprovado! Nota ->  ", m)
@@ -28,5 +28,5 @@ while (resp == 's'):
         print("\nO aluno", nome, "foi reprovado! Nota ->  ", m)
         reprovado = reprovado + 1
 
+    resp = (input("Você deseja continuar? S para sim e N para não ->  "))
 print("\n", aprovado, "aluno(s) foram aprovados.\n", ifa, "aluno(s) estão de recuperação.\n", reprovado, "aluno(s) foram reprovados!\n")
-resp = (input("Você deseja continuar? S para sim e N para não ->  "))
