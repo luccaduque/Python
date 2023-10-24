@@ -1,4 +1,4 @@
-#Claro, o comando for em Python é usado para iterar sobre uma sequência (como uma lista, tupla, dicionário, conjunto ou string) 
+#O comando for em Python é usado para iterar sobre uma sequência (como uma lista, tupla, dicionário, conjunto ou string) 
 #ou qualquer outro objeto iterável. Ele é frequentemente utilizado quando o número de iterações é conhecido.
 #Por exemplo, o seguinte código em Python utiliza um loop for para imprimir os números de 0 a 4:
 
