@@ -6,7 +6,7 @@ reprovado = int (0)
 ifa = int (0)
 resp = ''
 
-resp = (input("\nVocê deseja iniciar o programa CALCULA MÉDIA? S para SIM  e n para NÃO ->  "))
+resp = (input("\nVocê deseja iniciar o programa CALCULA MÉDIA? S para SIM  e N para NÃO ->  "))
 
 while (resp == 's' or resp == 'S'):
     nome = input("\nInsira o nome do aluno ->  ")
