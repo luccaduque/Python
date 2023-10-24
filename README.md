@@ -1,0 +1,1 @@
+meus estudos sobre python 🤓
