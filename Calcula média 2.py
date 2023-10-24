@@ -20,7 +20,7 @@ while (resp == 's' or resp == 'S'):
         print("\nO aluno", nome, "foi aprovado! Nota ->  ", m)
         aprovado = aprovado + 1
 
-    elif (m <= 3.0 and m < 6.0):
+    elif (m > 3.1 and m < 6.0):
         print("\nO aluno", nome, "está de recuperação! Nota ->  ", m)
         ifa = ifa + 1
 
