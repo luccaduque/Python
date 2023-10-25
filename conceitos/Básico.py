@@ -16,5 +16,6 @@ for i in range (10, 0, -1): #descrente
 # and  E
 # or OU
 # == IGUAL (= signfica atribuir)
-#''  para se referir a variaveis
+#''  para se referir a variaveis STRING
 #!= diferente
+# se uma variável não foi declarada, automaticamente será considerada STRING
